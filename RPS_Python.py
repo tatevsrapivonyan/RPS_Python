@@ -31,7 +31,7 @@ def rps():
         play_again = input("Do you want play again? Please enter 'YES' or 'Y' for yes or something else for no.\n")
 
         if play_again.upper() != "Y" and play_again.title() != "Yes":
-            play_again = False
+            break
 
     print("Game over! Thank you.")
 
