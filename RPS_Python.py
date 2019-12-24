@@ -15,7 +15,7 @@ def rps():
             comp = "S"
 
         user = input("Your turn!\n")
-        print(user.upper())
+
         while user.upper() != "R" and user.upper() != "P" and user.upper() != "S":
             user = input('Please enter "R" for Rock, "P" for Paper, "S" for scissors.\n')
 
